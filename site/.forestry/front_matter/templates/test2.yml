@@ -1,4 +1,16 @@
 ---
 label: test2
 hide_body: true
-fields: []
+fields:
+- name: test
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: pages
+      file: 
+      path: 
+  label: test
